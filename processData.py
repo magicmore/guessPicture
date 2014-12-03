@@ -1,6 +1,6 @@
 
 class RawData(object):
-    rawKeys = ['id', 'pic', 'answer', 'option', 'question']
+    rawKeys = ['id', 'pic', 'answer', 'option', 'hint']
     def __init__(self, offset):
         fp = open("./rawData/raw.txt", "r")
         self.info = {}
